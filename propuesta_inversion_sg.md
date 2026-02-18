@@ -91,7 +91,7 @@ Cada estudiante **elige libremente** qué servicios adicionales desea. Nadie est
 
 Este es el servicio base. Incluye:
 
-- ✅ Examen tipo ICFES Saber 11 completo (196 preguntas, 5 materias, 2 sesiones)
+- ✅ Examen tipo ICFES Saber 11 completo (254 preguntas, 5 materias, 2 sesiones)
 - ✅ Material de examen para aplicación presencial por la institución
 - ✅ Formulario digital para que cada estudiante suba sus respuestas
 - ✅ Puntaje global ICFES (escala oficial 0–500) con fórmula calibrada
@@ -341,6 +341,41 @@ graph TD
 | 🏆 **Marketing institucional** | Benchmark verificable para atraer nuevos estudiantes y justificar matrícula |
 | 🔒 **Seguridad de datos** | Infraestructura Google (Firebase). Cada estudiante solo ve sus propios datos |
 | 🌐 **100% virtual** | Soporte, análisis, tutorías y seguimiento completamente virtuales |
+
+---
+
+---
+
+## Cronograma de Implementación Típico
+
+La velocidad es clave. Nuestro proceso está optimizado para no interrumpir el calendario académico:
+
+1. **Día 0: Activación**
+   - Confirmación de la participación.
+   - Envío de material maestro para impresión (o recepción de material físico).
+
+2. **Día 1: Aplicación**
+   - La institución realiza el simulacro presencial.
+   - Los estudiantes cargan sus respuestas en el formulario digital (tiempo estimado: 10 min).
+
+3. **Día 2: Resultados (24 horas después)**
+   - Procesamiento automático de datos.
+   - **Envío de correos personalizados** con material protegido a cada estudiante.
+   - Activación inmediata de dashboards y reportes institucionales.
+
+4. **Día 3 en adelante: Análisis y Acción**
+   - Coordinadores reciben alertas de estudiantes en riesgo.
+   - Estudiantes revisan sus resultados en el portal.
+   - Se agendan las tutorías virtuales (si se adquirieron).
+
+---
+
+## Requisitos Técnicos
+
+Simplificamos la tecnología para que no sea una barrera:
+
+- **Para la Institución:** Ninguno. No requiere instalar software ni servidores. Solo espacio físico para el examen.
+- **Para el Estudiante:** Cualquier dispositivo con navegador e internet (Celular, Tablet o Computador) para subir respuestas y consultar resultados.
 
 ---
 
