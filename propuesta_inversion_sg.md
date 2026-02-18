@@ -25,10 +25,40 @@ graph LR
 
 1. **La institución aplica el examen de forma presencial** en sus instalaciones, con el material que proporcionamos
 2. **Cada estudiante sube sus respuestas** a nuestros formularios digitales desde cualquier dispositivo
-3. **Nuestro motor de procesamiento calibrado** analiza las respuestas y genera resultados en minutos
-4. **Cada estudiante y la institución** acceden a sus resultados y herramientas en nuestra plataforma web 24/7
+3. **Nuestro motor de procesamiento calibrado** analiza las respuestas y genera resultados en un plazo de **1 día**
+4. **Cada estudiante recibe por correo electrónico** su material personalizado con documentos protegidos y únicos
+5. **Cada estudiante y la institución** acceden a sus resultados y herramientas en nuestra plataforma web 24/7
 
 > Todo el análisis, soporte y seguimiento es **100% virtual**. La institución solo se encarga de la aplicación presencial del examen.
+
+### 🔐 Documentos personalizados por estudiante
+
+Cada estudiante recibe por **correo electrónico** sus documentos de forma completamente individualizada. No es un PDF genérico — cada archivo es **único e irrepetible**:
+
+```mermaid
+graph TD
+    A["📄 PDF original del simulacro"] --> B["⚙️ Motor de personalización\nSubidorPRO"]
+    B --> C["📝 Marca de agua visible\ncon nombre e ID del estudiante"]
+    B --> D["🕵️ 6 capas forenses invisibles\npara rastrear filtraciones"]
+    B --> E["🔒 Encriptación AES-256\ncontraseña individual"]
+    B --> F["🛡️ Protección anti-copia\nbloqueo de selección de texto"]
+    C --> G["📧 Envío automático\nal email del estudiante"]
+    D --> G
+    E --> G
+    F --> G
+```
+
+| Capa de protección | Qué hace |
+| ------------------ | -------- |
+| 🎨 **Marca de agua visible** | Nombre e ID del estudiante en mosaico sobre cada página (opacidad 20%, rotación 35°) |
+| 🕵️ **Marcas forenses invisibles** | 6 capas de rastreo imperceptibles al ojo humano: micro-kerning tipográfico, caracteres Unicode zero-width, UUID único, checksum por página |
+| 🔒 **Encriptación AES-256** | Cada PDF tiene contraseña individual. Permisos: imprimir ✅, copiar ❌, modificar ❌ |
+| 🛡️ **Capa anti-copia** | Superposición invisible que bloquea la selección de texto sin afectar la lectura |
+| 📋 **Metadatos únicos** | Título, licencia y hash SHA-256 individuales incrustados en el archivo |
+| 🔥 **Rasterización** (opcional) | Modo de seguridad máxima: convierte el PDF a imágenes, haciendo las marcas imposibles de remover |
+
+> [!IMPORTANT]
+> **Si un estudiante filtra su PDF, las marcas forenses permiten identificar exactamente quién lo hizo.** Esto protege la inversión de la institución y el valor del material académico.
 
 ---
 
@@ -66,8 +96,9 @@ Este es el servicio base. Incluye:
 - ✅ Formulario digital para que cada estudiante suba sus respuestas
 - ✅ Puntaje global ICFES (escala oficial 0–500) con fórmula calibrada
 - ✅ Nivel de desempeño automático: Superior, Alto, Medio o En Desarrollo
+- ✅ Documentos personalizados enviados por correo electrónico con protección forense y encriptación individual
 
-> La institución aplica el examen en sus instalaciones. Cada estudiante sube sus respuestas a nuestros formularios digitales desde cualquier dispositivo con conexión a internet.
+> La institución aplica el examen en sus instalaciones. Cada estudiante sube sus respuestas a nuestros formularios digitales y recibe su material personalizado por email.
 
 ---
 
@@ -172,6 +203,7 @@ Identifica las preguntas más falladas con distribución de distractores. Le dic
 #### 🤝 Reunión Virtual de Fortalecimiento con Tutores
 
 Sesión virtual con los docentes de la institución para:
+
 - Interpretar los datos del simulacro en conjunto
 - Identificar brechas de aprendizaje sistemáticas
 - Diseñar acciones correctivas concretas con cronograma
@@ -179,6 +211,7 @@ Sesión virtual con los docentes de la institución para:
 #### 📋 Plan de Mejora Personalizado
 
 Documento entregable con:
+
 - Recomendaciones específicas por materia basadas en los datos reales
 - Prioridades de intervención (cuáles temas atacar primero)
 - Estrategias sugeridas de refuerzo adaptadas al contexto institucional
@@ -224,6 +257,7 @@ Si la institución contrata más de un simulacro: evolución del promedio por ma
 #### 🗺️ Plataforma Web de Mapeo y Seguimiento
 
 Acceso web 24/7 para coordinadores con:
+
 - Búsqueda por estudiante individual
 - Filtros por materia, nivel de desempeño e institución
 - Detalle de cada estudiante: todas sus respuestas, patrones detectados, comparación con el grupo
