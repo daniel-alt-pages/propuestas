@@ -1,0 +1,77 @@
+/* ═══════════════════════════════════════════════
+   TUTOR PROFILE MANAGER — Modal & Grid Styles
+   ═══════════════════════════════════════════════ */
+
+/* ── Grid Cards ─────────────────────────────── */
+.tutor-profile-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:1.2rem;transition:all .3s ease}
+.tutor-profile-card:hover{border-color:rgba(139,92,246,.3);box-shadow:0 8px 30px rgba(139,92,246,.08)}
+.tpc-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.tpc-avatar{width:56px;height:56px;border-radius:14px;background:rgba(139,92,246,.15) center/cover no-repeat;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:2px solid rgba(139,92,246,.2)}
+.tpc-info h4{font-size:.95rem;font-weight:700;color:#fff;margin:0}
+.tpc-info span{font-size:.75rem;color:rgba(255,255,255,.5)}
+.tpc-badges{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.35rem}
+.tpc-badge{font-size:.6rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:.2rem .6rem;border-radius:50px;background:rgba(139,92,246,.15);color:#a78bfa;border:1px solid rgba(139,92,246,.2)}
+.tpc-badge-profile{background:rgba(16,185,129,.12);color:#34d399;border-color:rgba(16,185,129,.2)}
+.tpc-badge-pending{background:rgba(251,191,36,.1);color:#fbbf24;border-color:rgba(251,191,36,.2)}
+.tpc-meta{display:flex;flex-direction:column;gap:.3rem;margin-bottom:1rem;padding:.8rem;background:rgba(255,255,255,.02);border-radius:10px}
+.tpc-meta-item{font-size:.78rem;color:rgba(255,255,255,.6)}
+.tpc-meta-item strong{color:rgba(255,255,255,.8)}
+.tpc-actions{display:flex;gap:.5rem}
+.tpc-btn{flex:1;display:flex;align-items:center;justify-content:center;gap:.4rem;padding:.55rem .6rem;border-radius:10px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);color:rgba(255,255,255,.7);font-size:.72rem;font-weight:600;cursor:pointer;transition:all .2s}
+.tpc-btn:hover{background:rgba(255,255,255,.06);color:#fff}
+.tpc-btn-edit:hover{border-color:rgba(139,92,246,.4);color:#a78bfa}
+.tpc-btn-preview:hover{border-color:rgba(59,130,246,.4);color:#60a5fa}
+.tpc-btn-delete{flex:0 0 36px;color:rgba(239,68,68,.6)}.tpc-btn-delete:hover{border-color:rgba(239,68,68,.4);color:#ef4444;background:rgba(239,68,68,.08)}
+
+/* ── Full Profile Modal ─────────────────────── */
+.tp-modal-overlay{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s}
+.tp-modal-overlay.active{opacity:1;pointer-events:auto}
+.tp-modal{width:min(96vw,780px);max-height:90vh;background:#111;border:1px solid rgba(255,255,255,.08);border-radius:20px;display:flex;flex-direction:column;box-shadow:0 25px 80px rgba(0,0,0,.6)}
+.tp-modal-header{display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06)}
+.tp-modal-header h3{font-size:1.1rem;font-weight:700;color:#fff}
+.tp-close{background:none;border:none;color:rgba(255,255,255,.5);cursor:pointer;padding:6px;border-radius:8px;transition:all .2s}
+.tp-close:hover{background:rgba(255,255,255,.08);color:#fff}
+
+/* ── Tabs ────────────────────────────────────── */
+.tp-tabs{display:flex;gap:0;padding:0 1rem;border-bottom:1px solid rgba(255,255,255,.06);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tp-tab{display:flex;align-items:center;gap:.4rem;padding:.8rem 1rem;border:none;background:none;color:rgba(255,255,255,.45);font-size:.78rem;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
+.tp-tab:hover{color:rgba(255,255,255,.7)}
+.tp-tab.active{color:#a78bfa;border-bottom-color:#a78bfa}
+.tp-tab svg{opacity:.6}.tp-tab.active svg{opacity:1}
+
+/* ── Body / Panels ──────────────────────────── */
+.tp-modal-body{flex:1;overflow-y:auto;padding:1.5rem}
+.tp-panel{display:none}.tp-panel.active{display:block}
+.tp-section-label{font-size:.75rem;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid rgba(255,255,255,.04)}
+
+/* ── Preview Banner ─────────────────────────── */
+.tp-preview-banner{display:flex;align-items:center;gap:1rem;padding:1rem 1.2rem;background:linear-gradient(135deg,rgba(139,92,246,.08),rgba(59,130,246,.05));border:1px solid rgba(139,92,246,.15);border-radius:14px;margin-bottom:1.5rem}
+.tp-preview-img{width:60px;height:60px;border-radius:14px;background:rgba(139,92,246,.2) center/cover no-repeat;flex-shrink:0}
+.tp-preview-name{display:block;font-size:1.1rem;font-weight:700;color:#fff}
+.tp-preview-role{display:block;font-size:.78rem;color:rgba(255,255,255,.5)}
+
+/* ── Fields ──────────────────────────────────── */
+.tp-field{margin-bottom:.8rem}
+.tp-field label{display:block;font-size:.72rem;font-weight:600;color:rgba(255,255,255,.5);letter-spacing:.5px;text-transform:uppercase;margin-bottom:.3rem}
+.tp-field input,.tp-field textarea,.tp-field select{width:100%;padding:.6rem .8rem;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#fff;font-size:.85rem;font-family:inherit;transition:border-color .2s;outline:none;resize:vertical}
+.tp-field input:focus,.tp-field textarea:focus,.tp-field select:focus{border-color:rgba(139,92,246,.4);background:rgba(139,92,246,.04)}
+.tp-field select option{background:#1a1a2e;color:#fff}
+.tp-field-row{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+@media(max-width:600px){.tp-field-row{grid-template-columns:1fr}}
+
+/* ── Dynamic Items ──────────────────────────── */
+.tp-dynamic-item{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1rem;margin-bottom:.8rem;transition:border-color .2s}
+.tp-dynamic-item:hover{border-color:rgba(139,92,246,.2)}
+.tp-dynamic-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem}
+.tp-dynamic-header span{font-size:.78rem;font-weight:700;color:rgba(255,255,255,.6)}
+.tp-dynamic-header button{background:none;border:none;color:rgba(239,68,68,.5);cursor:pointer;font-size:1rem;padding:2px 6px;border-radius:6px;transition:all .2s}
+.tp-dynamic-header button:hover{background:rgba(239,68,68,.1);color:#ef4444}
+.tp-btn-add{display:flex;align-items:center;gap:.4rem;padding:.6rem 1rem;border:1px dashed rgba(139,92,246,.3);background:none;color:#a78bfa;border-radius:10px;font-size:.78rem;font-weight:600;cursor:pointer;transition:all .2s;width:100%;justify-content:center}
+.tp-btn-add:hover{background:rgba(139,92,246,.08);border-color:#a78bfa}
+
+/* ── Footer ──────────────────────────────────── */
+.tp-modal-footer{display:flex;justify-content:flex-end;gap:.8rem;padding:1rem 1.5rem;border-top:1px solid rgba(255,255,255,.06)}
+.tp-btn-cancel{padding:.6rem 1.2rem;border:1px solid rgba(255,255,255,.1);background:none;color:rgba(255,255,255,.6);border-radius:10px;font-size:.82rem;font-weight:600;cursor:pointer;transition:all .2s}
+.tp-btn-cancel:hover{background:rgba(255,255,255,.05);color:#fff}
+.tp-btn-save{display:flex;align-items:center;gap:.4rem;padding:.6rem 1.4rem;background:linear-gradient(135deg,#7c3aed,#6d28d9);border:none;color:#fff;border-radius:10px;font-size:.82rem;font-weight:700;cursor:pointer;transition:all .2s;box-shadow:0 4px 15px rgba(124,58,237,.3)}
+.tp-btn-save:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(124,58,237,.4)}
