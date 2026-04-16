@@ -57,7 +57,7 @@ Cada estudiante **elige libremente** qué servicios adicionales desea. Nadie est
 
 ---
 
-### A — Simulacro ICFES ($5.000/estudiante)
+### A — Simulacro ICFES ($4.500/estudiante)
 
 Este es el servicio base. Incluye:
 
