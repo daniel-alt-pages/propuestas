@@ -71,7 +71,7 @@ Este es el servicio base. Incluye:
 
 ---
 
-### B — Portal Web Personalizado ($3.500/estudiante) · *Opcional*
+### B — Portal Web Personalizado ($3.500/estudiante)
 
 Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 
@@ -90,7 +90,7 @@ Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 
 ---
 
-### B+ — 10 Horas de Retroalimentación con Tutores ($7.000/estudiante) · *Opcional*
+### B+ — 10 Horas de Retroalimentación con Tutores ($7.000/estudiante)
 
 **El servicio premium para estudiantes que buscan el máximo provecho de su simulacro.**
 
