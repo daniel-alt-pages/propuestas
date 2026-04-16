@@ -86,7 +86,7 @@ Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 | 📈 **Evolución entre simulacros** | Si presenta más de un simulacro: "Subiste de 312 a 345 (+33 pts)" |
 | 📱 **Acceso móvil** | Diseño responsive — funciona desde celular, tablet o computador |
 
-> **$5.000** por 8 herramientas de análisis profesional. Es menos que el costo de imprimir y entregar resultados en papel.
+> **$3.500** por 8 herramientas de análisis profesional. Es menos que el costo de imprimir y entregar resultados en papel.
 
 ---
 
