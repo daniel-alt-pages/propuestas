@@ -90,11 +90,11 @@ Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 
 ---
 
-### B+ — 10 Horas de Retroalimentación con Tutores ($7.500/estudiante) · *Opcional*
+### B+ — 10 Horas de Retroalimentación con Tutores ($7.000/estudiante) · *Opcional*
 
 **El servicio premium para estudiantes que buscan el máximo provecho de su simulacro.**
 
-Paquete de **20 horas de retroalimentación pregunta por pregunta** con los mejores tutores especializados en cada materia ICFES. 100% virtual (videollamada).
+Paquete de **10 horas de retroalimentación pregunta por pregunta** con los mejores tutores especializados en cada materia ICFES. 100% virtual (videollamada).
 
 | Herramienta | Lo que incluye |
 | ----------- | -------------- |
