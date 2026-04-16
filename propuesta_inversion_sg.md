@@ -57,11 +57,11 @@ Cada estudiante **elige libremente** qué servicios adicionales desea. Nadie est
 
 ---
 
-### A — Simulacro ICFES ($10.000/estudiante)
+### A — Simulacro ICFES ($5.000/estudiante)
 
 Este es el servicio base. Incluye:
 
-- ✅ Examen tipo ICFES Saber 11 completo (196 preguntas, 5 materias, 2 sesiones)
+- ✅ Examen tipo ICFES Saber 11 completo (254 preguntas, 5 materias, 2 sesiones)
 - ✅ Material de examen para aplicación presencial por la institución
 - ✅ Formulario digital para que cada estudiante suba sus respuestas
 - ✅ Puntaje global ICFES (escala oficial 0–500) con fórmula calibrada
@@ -71,7 +71,7 @@ Este es el servicio base. Incluye:
 
 ---
 
-### B — Portal Web Personalizado ($5.000/estudiante) · *Opcional*
+### B — Portal Web Personalizado ($3.500/estudiante) · *Opcional*
 
 Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 
@@ -90,7 +90,7 @@ Acceso 24/7 a un portal web profesional con herramientas de análisis personal:
 
 ---
 
-### B+ — 20 Horas de Retroalimentación con Tutores ($15.000/estudiante) · *Opcional*
+### B+ — 10 Horas de Retroalimentación con Tutores ($7.500/estudiante) · *Opcional*
 
 **El servicio premium para estudiantes que buscan el máximo provecho de su simulacro.**
 
@@ -98,12 +98,12 @@ Paquete de **20 horas de retroalimentación pregunta por pregunta** con los mejo
 
 | Herramienta | Lo que incluye |
 | ----------- | -------------- |
-| 👨‍🏫 **20 horas de tutoría especializada** | Sesiones virtuales en vivo con tutores expertos en cada materia ICFES |
+| 👨‍🏫 **10 horas de tutoría especializada** | Sesiones virtuales en vivo con tutores expertos en cada materia ICFES |
 | 📝 **Revisión pregunta por pregunta** | El tutor revisa cada pregunta fallada: qué respondió, por qué es incorrecta, cuál es el razonamiento correcto |
 | 🎯 **Plan de estudio personalizado** | Basado en las debilidades detectadas, el tutor diseña un plan de estudio a medida |
 | 🧠 **Estrategias de resolución ICFES** | Técnicas para cada tipo de pregunta: eliminación de distractores, gestión de tiempo, lectura de enunciados |
 
-**Las 20 horas se distribuyen según el desempeño individual del estudiante** en cada área, priorizando las materias donde más necesita refuerzo. La distribución es **personalizada y ajustable** — no hay una fórmula fija, se adapta 100% al perfil de cada alumno.
+**Las 10 horas se distribuyen según el desempeño individual del estudiante** en cada área, priorizando las materias donde más necesita refuerzo. La distribución es **personalizada y ajustable** — no hay una fórmula fija, se adapta 100% al perfil de cada alumno.
 
 ---
 
@@ -114,8 +114,8 @@ El estudiante elige lo que desea. **Cada servicio es independiente:**
 | Servicio | Costo | ¿Obligatorio? |
 | -------- | ----- | -------------- |
 | **A. Simulacro ICFES** | $10.000 | ✅ Sí (es el examen) |
-| **B. Portal web** | $5.000 | ❌ Opcional |
-| **B+. 20h con tutores** | $15.000 | ❌ Opcional |
+| **B. Portal web** | $2.500 | ❌ Opcional |
+| **B+. 20h con tutores** | $7.500 | ❌ Opcional |
 
 **Combinaciones posibles:**
 
